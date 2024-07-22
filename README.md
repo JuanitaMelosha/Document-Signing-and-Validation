@@ -1,54 +1,68 @@
-# BlockChain-Based Document Verification with IPFS
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This project aims to create a secure and decentralized system for document verification using Blockchain and InterPlanetary File System (IPFS) technologies. The system stores the hash of the documents in the Blockchain network and the documents themselves in the IPFS network. This ensures that the documents cannot be tampered with or altered, and they can be easily retrieved and verified by authorized parties.
+## Available Scripts
 
-## Features
+In the project directory, you can run:
 
-- Secure document verification using Blockchain and IPFS technologies
-- Decentralized system, with no central authority or single point of failure
-- Fast and easy verification process, with no need for intermediaries or third-party services
-- User-friendly interface for document upload and verification
-- Support for multiple document types and formats
+### `yarn start`
 
-## Requirements
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-- Node.js and npm installed on your system
-- Ganache or any other Ethereum network client
-- IPFS client (optional)
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
-## Installation
+### `yarn test`
 
-1. Clone this repository: 
-``https://github.com/DevAloshe/BlockChain-Based-Document-Verfication-With-IPFS.git``
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
+### `yarn build`
 
-2. Install the required packages:
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-``cd BlockChain-Based-Document-Verfication-With-IPFS
-npm install``
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
 
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-3. Open the application in your browser using Liver Server Extension .
+### `yarn eject`
 
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-## Usage
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-1. The owner of the system must first add an exporter to the list of authorized parties. This is done by clicking on the "Add Exporter" button and entering the exporter's Ethereum address.
-2. Upload a document to the system by clicking on the "Upload Document" button and selecting a file from your computer. The document will be encrypted and stored in the IPFS network, and its hash will be recorded in the Blockchain.
+Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-3. Verify a document by clicking on the "Verify Document" button and entering its unique identifier (hash) in the input field. The system will retrieve the document from the IPFS network, decrypt it, and compare its hash with the one recorded in the Blockchain.
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-4. The system will display a message indicating whether the document is authentic or not.
+## Learn More
 
-## License
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-This project is licensed under the MIT License - see the LICENSE.md file for details.
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-## Acknowledgments
-- Metamask documentation
-- Solidity and Web3.js documentation
-- IPFS documentation
-- Truffle documentation
+### Code Splitting
 
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
+### Analyzing the Bundle Size
 
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+
+### Making a Progressive Web App
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+
+### Advanced Configuration
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `yarn build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
